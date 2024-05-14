@@ -1,6 +1,6 @@
 # forked from:
 
-https://github.com/g45t345rt/esbuild-style-plugin
+https://github.com/nullbio/esbuild-style-plugin
 
 Original author non-responsive & not merging fixes. Submit your pull requests here instead.
 

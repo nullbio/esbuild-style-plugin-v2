@@ -15,12 +15,12 @@
     "build": "ts-node bundle.ts && tsc --emitDeclarationOnly --outDir dist",
     "prepublishOnly": "npm run build"
   },
-  "author": "g45t345rt",
+  "author": "nullbio",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/g45t345rt/esbuild-style-plugin-v2"
+    "url": "git+https://github.com/nullbio/esbuild-style-plugin-v2"
   },
-  "homepage": "https://github.com/g45t345rt/esbuild-style-plugin-v2#readme",
+  "homepage": "https://github.com/nullbio/esbuild-style-plugin-v2#readme",
   "license": "ISC",
   "dependencies": {
     "@types/less": "^3.0.3",
