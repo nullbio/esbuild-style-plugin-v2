@@ -1,4 +1,10 @@
-# esbuild-style-plugin
+# forked from:
+
+https://github.com/g45t345rt/esbuild-style-plugin
+
+Original author non-responsive & not merging fixes. Submit your pull requests here instead.
+
+# esbuild-style-plugin-v2
 
 Another esbuild plugin for your styling.
 
@@ -16,15 +22,15 @@ Another esbuild plugin for your styling.
 
 ## NPM package
 
-`npm i -D esbuild-style-plugin`
+`npm i -D esbuild-style-plugin-v2`
 
 ## Using the package
 
 Look at the test files or here is a basic example
 
 ```ts
-import stylePlugin from 'esbuild-style-plugin'
-//const stylePlugin = require('esbuild-style-plugin')
+import stylePlugin from 'esbuild-style-plugin-v2'
+//const stylePlugin = require('esbuild-style-plugin-v2')
 
 esbuild.build({
   plugins: [
@@ -77,6 +83,6 @@ Just let esbuild minify and do his job.
 ### Preprocessors import typings
 
 If you want to be able to use `import styles from 'styles.module.sass'` without any errors
-Just add `esbuild-style-plugin` to your types in `tsconfig.json`
+Just add `esbuild-style-plugin-v2` to your types in `tsconfig.json`
 
 ![tsconfig.json import types](import_types.jpg)

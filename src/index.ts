@@ -23,7 +23,7 @@ interface PluginOptions {
 
 const LOAD_TEMP_NAMESPACE = 'temp_stylePlugin'
 const LOAD_STYLE_NAMESPACE = 'stylePlugin'
-const SKIP_RESOLVE = 'esbuild-style-plugin-skipResolve'
+const SKIP_RESOLVE = 'esbuild-style-plugin-v2-skipResolve'
 const styleFilter = /.\.(css|sass|scss|less|styl)$/
 
 const handleCSSModules = (mapping: { data: any }, cssModulesOptions: CssModulesOptions) => {
@@ -128,7 +128,7 @@ const onStyleLoad = (options: PluginOptions) => async (args: OnLoadArgs): Promis
 }
 
 const stylePlugin = (options: PluginOptions = {}) => ({
-  name: 'esbuild-style-plugin',
+  name: 'esbuild-style-plugin-v2',
   setup: async (build: PluginBuild) => {
     if (options.postcssConfigFile) {
       console.log(`Using postcss config file.`)

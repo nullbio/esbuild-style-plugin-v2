@@ -1,5 +1,5 @@
 {
-  "name": "esbuild-style-plugin",
+  "name": "esbuild-style-plugin-v2",
   "version": "1.6.3",
   "description": "Another esbuild plugin for your styling with CSS,SASS,LESS,STYLUS",
   "types": "./dist/index.d.ts",
@@ -18,9 +18,9 @@
   "author": "g45t345rt",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/g45t345rt/esbuild-style-plugin"
+    "url": "git+https://github.com/g45t345rt/esbuild-style-plugin-v2"
   },
-  "homepage": "https://github.com/g45t345rt/esbuild-style-plugin#readme",
+  "homepage": "https://github.com/g45t345rt/esbuild-style-plugin-v2#readme",
   "license": "ISC",
   "dependencies": {
     "@types/less": "^3.0.3",
