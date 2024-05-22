@@ -4,6 +4,12 @@ https://github.com/g45t345rt/esbuild-style-plugin
 
 Original author non-responsive & not merging fixes. Submit your pull requests here instead.
 
+I don't actually use this anymore because it creates empty js files alongside your css files, for whatever reason. Instead, I'm just using tailwindcss directly, as per this post:
+
+<https://stackoverflow.com/a/72723786/11241092>
+
+If someone wants to patch that via PR, I'll merge it. 
+
 # esbuild-style-plugin-v2
 
 Another esbuild plugin for your styling.
